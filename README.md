@@ -1,2 +1,2 @@
 # Karuna
-An Donation Web Application
+A Charity Donation Web Application
