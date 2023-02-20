@@ -1,0 +1,5 @@
+package com.app.KarunaApp.entities;
+
+public class BaseEntity {
+
+}

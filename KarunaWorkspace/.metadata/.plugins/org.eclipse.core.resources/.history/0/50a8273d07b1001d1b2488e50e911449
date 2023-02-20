@@ -1,0 +1,28 @@
+package com.app.KarunaApp.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="donor")
+
+public class Donor extends BaseEntity {
+	
+	@Column(name="Donor Name",length=100)
+	private String name;
+	
+	private String email;
+	
+	private String address;
+	
+	private String password;
+	
+	private Long mobile;
+	
+	@Column(name="Donation Count")
+	private Long donationCount;
+	
+	private boolean status;
+
+}
