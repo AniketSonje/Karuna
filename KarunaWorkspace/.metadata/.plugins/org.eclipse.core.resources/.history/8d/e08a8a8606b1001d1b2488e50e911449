@@ -1,5 +1,0 @@
-package com.app.KarunaApp.entities;
-
-public class Donor extends BaseEntity {
-
-}
